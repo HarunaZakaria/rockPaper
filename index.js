@@ -1,1 +1,3 @@
-alert("Hello world")
+function getComputerChoice(){
+    let randomNum = Math.random();
+}
