@@ -1,3 +1,9 @@
+let humanScore = 0;
+let computerScore = 0;
+
+
+
+
 //computer choice
 function getComputerChoice(){
     let randomNum = Math.floor(Math.random()  * 3);
@@ -18,4 +24,13 @@ function getHumanChoice(){
     console.log(choice);
 }
 
+function playRound(humanChoice, computerChoice) {
+    // your code here!
+  }
+  
+  const humanSelection = getHumanChoice();
+  const computerSelection = getComputerChoice();
+  
+  playRound(humanSelection, computerSelection);
+  
 getHumanChoice();
